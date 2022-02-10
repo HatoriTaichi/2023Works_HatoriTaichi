@@ -1,0 +1,18 @@
+PASNUM = 14
+
+MODEL_FILENAME = data/Model/x/player_body.x			# [0]体
+MODEL_FILENAME = data/Model/x/player_head.x			# [1]頭
+MODEL_FILENAME = data/Model/x/player_armR.x			# [2]右腕
+MODEL_FILENAME = data/Model/x/player_handR.x		# [3]右手
+MODEL_FILENAME = data/Model/x/player_armL.x			# [4]左腕
+MODEL_FILENAME = data/Model/x/player_handL.x		# [5]左手
+MODEL_FILENAME = data/Model/x/player_legR.x			# [6]右腿
+MODEL_FILENAME = data/Model/x/player_footR.x		# [7]右足
+MODEL_FILENAME = data/Model/x/player_legL.x			# [8]左腿
+MODEL_FILENAME = data/Model/x/player_footL.x		# [9]左足
+MODEL_FILENAME = data/Model/x/gun.x					# [10]銃
+MODEL_FILENAME = data/Model/x/TransparentetBox.x	# [11]透明ブロック
+MODEL_FILENAME = data/Model/x/container.x			# [12]コンテナ
+MODEL_FILENAME = data/Model/x/ground.x				# [13]海ステージ床
+
+END

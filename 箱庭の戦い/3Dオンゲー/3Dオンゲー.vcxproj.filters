@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\基底クラス">
+      <UniqueIdentifier>{39c1cc5f-8d80-41f4-972b-243571b07e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\派生%28重要%29クラス">
+      <UniqueIdentifier>{e897aba8-d243-419e-bcf6-616814119089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\派生%28主要%29クラス">
+      <UniqueIdentifier>{d9684602-9648-4119-b0b5-904e1b7e1314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\派生無し">
+      <UniqueIdentifier>{392c7a9d-b41a-4900-8203-c0c1c268cd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\派生%28大量生成%29クラス">
+      <UniqueIdentifier>{dcc2a742-cfb2-4f3b-bc09-f0f76d4d54df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\派生%28大きく小数%29クラス">
+      <UniqueIdentifier>{6cf959f6-192a-4536-9dc7-874f7cac42af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\基底クラス">
+      <UniqueIdentifier>{4ec4b698-da33-4b25-9f9a-7c276dc673e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\派生%28大きく小数%29クラス">
+      <UniqueIdentifier>{807b5901-737c-4885-a71c-1795e4edc47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\派生%28大量生成%29クラス">
+      <UniqueIdentifier>{a765dd52-ec01-4208-91b5-23e03293cbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\派生無し">
+      <UniqueIdentifier>{3d6ae550-0415-4f0e-a4ae-3434011d078a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\派生%28主要%29クラス">
+      <UniqueIdentifier>{129c1add-8175-4d85-b97f-ce7c6986d385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\派生%28需要%29クラス">
+      <UniqueIdentifier>{c6b690c1-a048-4a2c-98f5-59ccf045ac6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{712785aa-85fc-408f-a1d2-b7ad09d63ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{0ba55ad6-74c4-467e-bfb1-fe242b349eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\派生%28主要%29クラス\imput">
+      <UniqueIdentifier>{d433a937-8472-4428-aee3-c9a0bd87a10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\派生%28主要%29クラス\input">
+      <UniqueIdentifier>{436c00b8-615a-4897-8074-030aee025f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\別クラスをまとめて使うクラス">
+      <UniqueIdentifier>{98f1f161-2e15-4ef5-a836-1bab51505cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\別クラスをまとめて使うクラス">
+      <UniqueIdentifier>{bab710af-34a5-4246-910e-594e08ef2af6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\基底クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\基底クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="playerbullet.cpp">
+      <Filter>ソース ファイル\派生%28大量生成%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="communicationdata.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\派生%28主要%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\派生%28主要%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2D.cpp">
+      <Filter>ソース ファイル\派生%28需要%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="textureobj.cpp">
+      <Filter>ソース ファイル\派生%28主要%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfloo.cpp">
+      <Filter>ソース ファイル\派生%28大きく小数%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="singlemodel.cpp">
+      <Filter>ソース ファイル\派生%28大量生成%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepad.cpp">
+      <Filter>ソース ファイル\派生%28主要%29クラス\imput</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinput.cpp">
+      <Filter>ソース ファイル\派生%28主要%29クラス\imput</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseinput.cpp">
+      <Filter>ソース ファイル\派生%28主要%29クラス\imput</Filter>
+    </ClCompile>
+    <ClCompile Include="meshsphere.cpp">
+      <Filter>ソース ファイル\派生%28大きく小数%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\派生%28大量生成%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="counter.cpp">
+      <Filter>ソース ファイル\別クラスをまとめて使うクラス</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\別クラスをまとめて使うクラス</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="matching.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="rule.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="bilboard.cpp">
+      <Filter>ソース ファイル\派生%28需要%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\派生無し</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3D.cpp">
+      <Filter>ソース ファイル\派生%28需要%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\派生%28大量生成%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="gunfire.cpp">
+      <Filter>ソース ファイル\派生%28大量生成%29クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="enemybullet.cpp">
+      <Filter>ソース ファイル\派生%28大量生成%29クラス</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2D.h">
+      <Filter>ヘッダー ファイル\派生%28重要%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3D.h">
+      <Filter>ヘッダー ファイル\派生%28重要%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="bilboard.h">
+      <Filter>ヘッダー ファイル\派生%28重要%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\派生%28主要%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\派生%28主要%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="communicationdata.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_client.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\派生%28大量生成%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="enemybullet.h">
+      <Filter>ヘッダー ファイル\派生%28大量生成%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="playerbullet.h">
+      <Filter>ヘッダー ファイル\派生%28大量生成%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="textureobj.h">
+      <Filter>ヘッダー ファイル\派生%28主要%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfloo.h">
+      <Filter>ヘッダー ファイル\派生%28大きく小数%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="singlemodel.h">
+      <Filter>ヘッダー ファイル\派生%28大量生成%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="gamepad.h">
+      <Filter>ヘッダー ファイル\派生%28主要%29クラス\input</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinput.h">
+      <Filter>ヘッダー ファイル\派生%28主要%29クラス\input</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseinput.h">
+      <Filter>ヘッダー ファイル\派生%28主要%29クラス\input</Filter>
+    </ClInclude>
+    <ClInclude Include="meshsphere.h">
+      <Filter>ヘッダー ファイル\派生%28大きく小数%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ヘッダー ファイル\派生%28大量生成%29クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="counter.h">
+      <Filter>ヘッダー ファイル\別クラスをまとめて使うクラス</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\別クラスをまとめて使うクラス</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="matching.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="rule.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\派生無し</Filter>
+    </ClInclude>
+    <ClInclude Include="gunfire.h">
+      <Filter>ヘッダー ファイル\派生%28大量生成%29クラス</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+TEX_NUM = 41
+
+ENUM_NAME
+GROUND = 0
+CONTEINER = 1
+SKY = 2
+BLOOD_00 = 3
+BLOOD_01 = 4
+BLOODMASK = 5
+MODEL_TEX = 6
+NUMBER_P1 = 7
+NUMBER_P2 = 8
+NUMBER_00 = 9
+WEAPON_VECTOR = 10
+AMMOFRAME = 11
+KNIFE = 12
+PLAYER_DIVIDE = 13
+WEAPONFRAME = 14
+WIN = 15
+LOSE = 16
+YES = 17
+NO = 18
+RESTART = 19
+PREESCLICK = 20
+GAMESTART = 21
+RELE = 22
+TITLE_NAME = 23
+SEE = 24
+TITLEBG_00 = 25
+MATCHING = 26
+MANUAL = 27
+WEAPON_LETTER = 28
+WEAPONMANUAL = 29
+OPERATIONMANUAL = 30
+MANUALBG_00 = 31
+BUCK = 32
+DESCRIPTION = 33
+WINCONDITION = 34
+GUMTEX_00 = 35
+GUMTEX_01 = 36
+GUMTEX_02 = 37
+GUMTEX_03 = 38
+MASLE_FLASH = 39
+BULLET = 40
+
+TEXTURE_PAS
+data/Texture/Model/Ground.png
+data/Texture/Model/Container.png
+data/Texture/Polygon/Sky.jpg
+data/Texture/ScreenFront/Blood_00.png
+data/Texture/ScreenFront/Blood_01.png
+data/Texture/ScreenFront/BloodMask.png
+data/Texture/Model/ruby_color.png
+data/Texture/UI/Number_P1.png
+data/Texture/UI/Number_P2.png
+data/Texture/UI/Number_00.png
+data/Texture/UI/VECTOR.png
+data/Texture/UI/AmmoFrame.png
+data/Texture/UI/Knife.png
+data/Texture/UI/PlayerDivide.png
+data/Texture/UI/WeaponFrame.png
+data/Texture/ScreenFront/Win.png
+data/Texture/ScreenFront/Lose.png
+data/Texture/ScreenFront/Yes.png
+data/Texture/ScreenFront/No.png
+data/Texture/ScreenFront/Restart.png
+data/Texture/ScreenFront/Click.png
+data/Texture/ScreenFront/GameStart.png
+data/Texture/ScreenFront/Rule.png
+data/Texture/ScreenFront/Title.png
+data/Texture/Polygon/See.jpg
+data/Texture/ScreenFront/TitleBg_00.png
+data/Texture/ScreenFront/Matching.png
+data/Texture/ScreenFront/Manual.png
+data/Texture/ScreenFront/WeaponLetter.png
+data/Texture/ScreenFront/OperationManual.png
+data/Texture/ScreenFront/WeaponManual.png
+data/Texture/ScreenFront/ManualBg_00.png
+data/Texture/ScreenFront/Buck.png
+data/Texture/ScreenFront/Description.png
+data/Texture/ScreenFront/WinCondition.png
+data/Texture/Model/glanz.jpg
+data/Texture/Model/M24R_C.jpg
+data/Texture/Model/M24R_N.jpg
+data/Texture/Model/M24R_S.jpg
+data/Texture/Polygon/Flash001.png
+data/Texture/Polygon/Bullet.png
+
+END
