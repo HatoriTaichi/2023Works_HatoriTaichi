@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム">
+      <UniqueIdentifier>{6449d445-905b-4d62-bcfc-dd4efd73051e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\ゲーム内">
+      <UniqueIdentifier>{47839c27-6ddf-47f0-b3d5-31ead622fff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\ゲーム内\自機">
+      <UniqueIdentifier>{4059a147-2100-4902-9625-ffdb0980b339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム">
+      <UniqueIdentifier>{919a7822-b453-454d-8802-943dcef70c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\ゲーム内">
+      <UniqueIdentifier>{95b28cec-12c5-40ea-a069-7a3ac1fb7d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\ゲーム内\自機">
+      <UniqueIdentifier>{3db44280-54ce-4c8c-bba2-73f492adf97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\ゲーム内\物">
+      <UniqueIdentifier>{86554395-47d4-4846-86a9-b49ed8219e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\ゲーム内\攻撃">
+      <UniqueIdentifier>{1acebf5b-ba47-4bc6-ae9a-9068138b20d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\ゲーム内\攻撃">
+      <UniqueIdentifier>{d51f0089-b851-4fc6-849a-e48f6b2a881c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\ゲーム内\敵">
+      <UniqueIdentifier>{69aca22c-9bc1-4c38-bc7d-8b7faacefcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\ゲーム内\敵">
+      <UniqueIdentifier>{cc34637f-e74c-4e71-b25e-5e6fbc63157d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\esy">
+      <UniqueIdentifier>{22e62e11-94d2-4e23-9d42-70c3a9affc8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\esy">
+      <UniqueIdentifier>{415d0153-ab3e-44a9-9913-414a58584a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\title">
+      <UniqueIdentifier>{5818657d-ccbe-428b-a575-209aa657633b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\title">
+      <UniqueIdentifier>{d59052b2-0710-4645-8ff1-f17024eb6824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\ゲーム内\物">
+      <UniqueIdentifier>{4841d3c9-e181-4456-b49f-08bbaa0e3752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\ホーム">
+      <UniqueIdentifier>{03d995da-3962-4aec-b222-62551dac8d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\result">
+      <UniqueIdentifier>{7b9a5ad5-9e9e-40a8-97fd-2a27e9a2c8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\result">
+      <UniqueIdentifier>{f61c23a2-c112-4e15-b11e-9435465ffde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\normal">
+      <UniqueIdentifier>{3e8270f8-46b4-49cf-a021-24f3bfd3ae78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\normal">
+      <UniqueIdentifier>{a03e655e-d1ea-4cf5-b9a2-048c2635bc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\ゲーム内\ホーム">
+      <UniqueIdentifier>{ab8ec5c0-0f0c-4cd0-8bca-17168aad4a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\herd">
+      <UniqueIdentifier>{cda61b38-fe2c-494f-88ad-b59265b52e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\hard">
+      <UniqueIdentifier>{ca567e9f-7f6d-4858-b7f2-d0eb1baae016}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\自機</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\物</Filter>
+    </ClCompile>
+    <ClCompile Include="difficulty level.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\ホーム</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\ホーム</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\攻撃</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\敵</Filter>
+    </ClCompile>
+    <ClCompile Include="home.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\ホーム</Filter>
+    </ClCompile>
+    <ClCompile Include="esystage01.cpp">
+      <Filter>ソース ファイル\ゲーム\esy</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\ゲーム\title</Filter>
+    </ClCompile>
+    <ClCompile Include="trap.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\物</Filter>
+    </ClCompile>
+    <ClCompile Include="esystage02.cpp">
+      <Filter>ソース ファイル\ゲーム\esy</Filter>
+    </ClCompile>
+    <ClCompile Include="esystage03.cpp">
+      <Filter>ソース ファイル\ゲーム\esy</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\ゲーム\result</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="operation.cpp">
+      <Filter>ソース ファイル\ゲーム\title</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内\自機</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\ゲーム\ゲーム内</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>ソース ファイル\ゲーム\result</Filter>
+    </ClCompile>
+    <ClCompile Include="rank.cpp">
+      <Filter>ソース ファイル\ゲーム\result</Filter>
+    </ClCompile>
+    <ClCompile Include="nostage01.cpp">
+      <Filter>ソース ファイル\ゲーム\normal</Filter>
+    </ClCompile>
+    <ClCompile Include="nostage02.cpp">
+      <Filter>ソース ファイル\ゲーム\normal</Filter>
+    </ClCompile>
+    <ClCompile Include="nostage03.cpp">
+      <Filter>ソース ファイル\ゲーム\normal</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="nostage04.cpp">
+      <Filter>ソース ファイル\ゲーム\normal</Filter>
+    </ClCompile>
+    <ClCompile Include="hard01.cpp">
+      <Filter>ソース ファイル\ゲーム\herd</Filter>
+    </ClCompile>
+    <ClCompile Include="hard02.cpp">
+      <Filter>ソース ファイル\ゲーム\herd</Filter>
+    </ClCompile>
+    <ClCompile Include="herd03.cpp">
+      <Filter>ソース ファイル\ゲーム\herd</Filter>
+    </ClCompile>
+    <ClCompile Include="herd04.cpp">
+      <Filter>ソース ファイル\ゲーム\herd</Filter>
+    </ClCompile>
+    <ClCompile Include="herd05.cpp">
+      <Filter>ソース ファイル\ゲーム\herd</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内\自機</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内\物</Filter>
+    </ClInclude>
+    <ClInclude Include="difficulty level.h">
+      <Filter>ヘッダー ファイル\ゲーム\ホーム</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>ヘッダー ファイル\ゲーム\ホーム</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内\攻撃</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内\敵</Filter>
+    </ClInclude>
+    <ClInclude Include="home.h">
+      <Filter>ヘッダー ファイル\ゲーム\ホーム</Filter>
+    </ClInclude>
+    <ClInclude Include="esystage01.h">
+      <Filter>ヘッダー ファイル\ゲーム\esy</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\ゲーム\title</Filter>
+    </ClInclude>
+    <ClInclude Include="trap.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内\物</Filter>
+    </ClInclude>
+    <ClInclude Include="esystage02.h">
+      <Filter>ヘッダー ファイル\ゲーム\esy</Filter>
+    </ClInclude>
+    <ClInclude Include="esystage03.h">
+      <Filter>ヘッダー ファイル\ゲーム\esy</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\ゲーム\result</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="operation.h">
+      <Filter>ヘッダー ファイル\ゲーム\title</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内\自機</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover.h">
+      <Filter>ヘッダー ファイル\ゲーム\result</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ヘッダー ファイル\ゲーム\ゲーム内</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>ヘッダー ファイル\ゲーム\result</Filter>
+    </ClInclude>
+    <ClInclude Include="nostage01.h">
+      <Filter>ヘッダー ファイル\ゲーム\normal</Filter>
+    </ClInclude>
+    <ClInclude Include="nostage02.h">
+      <Filter>ヘッダー ファイル\ゲーム\normal</Filter>
+    </ClInclude>
+    <ClInclude Include="nostage03.h">
+      <Filter>ヘッダー ファイル\ゲーム\normal</Filter>
+    </ClInclude>
+    <ClInclude Include="nostage04.h">
+      <Filter>ヘッダー ファイル\ゲーム\normal</Filter>
+    </ClInclude>
+    <ClInclude Include="hard01.h">
+      <Filter>ヘッダー ファイル\ゲーム\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="hard02.h">
+      <Filter>ヘッダー ファイル\ゲーム\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="herd03.h">
+      <Filter>ヘッダー ファイル\ゲーム\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="herd04.h">
+      <Filter>ヘッダー ファイル\ゲーム\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="herd05.h">
+      <Filter>ヘッダー ファイル\ゲーム\hard</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
