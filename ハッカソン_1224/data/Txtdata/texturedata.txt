@@ -1,0 +1,57 @@
+TEX_NUM = 25	# テクスチャ最大数
+
+ENUM_NAME
+RIGHT_ARROW = 0	# 右矢印
+RIGHT_ARROWFRAME = 1	# 右矢印フレーム
+LEFT_ARROW = 2	#	左矢印
+LEFT_ARROWFRAME = 3	# 左矢印フレーム
+UP_ARROW = 4	# 上矢印
+UP_ARROWFRAME = 5	# 上印フレーム
+DOWN_ARROW = 6	# 下矢印
+DOWN_ARROWFRAME = 7	# 下矢印フレーム
+ENEMY_LEFT = 8	# 左敵
+ENEMY_RIGHT = 9	# 右敵
+ENEMY_UP = 10	# 上敵
+ENEMY_DOWN = 11	# 下敵
+ENEMY_DAMAGE = 12	# ダメージ
+BG_00 = 13	# 背景
+RULE = 14	# ルール説明
+TITLE = 15	# タイトルの名前
+START = 16	# ゲームスタート
+BG01 = 17	# ゲームの背景
+COMBO = 18	# コンボ
+SCORE = 19	# スコア
+NUMBER = 20	# 数字
+RULEBG = 21	# 説明
+PLAYER = 22	# かなこ
+BUCK = 23	# 戻る
+RESULTBG = 24	# リザルト
+
+TEXTURE_PAS
+data/Texture/rightarrow.png
+data/Texture/rightarrow_frame.png
+data/Texture/leftarrow.png
+data/Texture/leftarrow_frame.png
+data/Texture/uparrow.png
+data/Texture/uparrow_frame.png
+data/Texture/downarrow.png
+data/Texture/downarrow_frame.png
+data/Texture/enemyleft_anim.png
+data/Texture/enemyright_anim.png
+data/Texture/enemyup_anim.png
+data/Texture/enemydown_anim.png
+data/Texture/enemydamage.png
+data/Texture/BG02.png
+data/Texture/Rule.png
+data/Texture/Title.png
+data/Texture/START.png
+data/Texture/BG003.png
+data/Texture/COMBO.png
+data/Texture/SCORE.png
+data/Texture/Number.png
+data/Texture/Rule02.png
+data/Texture/KANAKO.png
+data/Texture/Back.png
+data/Texture/BG00.png
+
+END
