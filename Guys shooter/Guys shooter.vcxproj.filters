@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\メイン">
+      <UniqueIdentifier>{cbaabdcb-db15-4f26-b401-eb15167ccd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\メイン">
+      <UniqueIdentifier>{566cc1e1-a157-43e6-be1d-be7a62c7cee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{0fe40ea1-4a69-4c96-bc6d-35c39ae31a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\input">
+      <UniqueIdentifier>{b989ea94-645e-4d30-8c00-99ce653747eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D">
+      <UniqueIdentifier>{ef63608a-6479-416c-9412-2ce4ac14a5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D\Model">
+      <UniqueIdentifier>{ea74be9a-ba88-4863-93f3-78b26e12cc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D\Model\Player">
+      <UniqueIdentifier>{c911cf45-031d-46e7-90cb-780b09323bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D">
+      <UniqueIdentifier>{6d294ec6-e453-42b1-bad3-a6cf7b9e81de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D\Model">
+      <UniqueIdentifier>{14b82a7c-e749-405a-9032-24e96a1f289e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D\Model\Player">
+      <UniqueIdentifier>{6f8f3087-f7ed-4611-b87c-2b1946f1d28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\環境">
+      <UniqueIdentifier>{6afbe6af-130e-41bd-9056-14558703314d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\環境">
+      <UniqueIdentifier>{5d795cd6-01cb-4b33-ab78-fb99e4ea8b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2D">
+      <UniqueIdentifier>{65f61870-6ac7-4ebb-a9f7-b37e085cd289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2D\タイトル">
+      <UniqueIdentifier>{1e3d54f2-7aa3-4e40-b899-25f2290958d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2D">
+      <UniqueIdentifier>{d37f3af1-daad-48df-8324-7bc2046e4ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\環境\model">
+      <UniqueIdentifier>{8362d153-bc9a-4dca-b62c-f7bd0d0cb604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\環境\model">
+      <UniqueIdentifier>{5dea80be-57b4-482e-8fca-28127dfda95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2D\タイトル">
+      <UniqueIdentifier>{a3c34dc6-20bd-4279-97a3-7b32c900ba38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D\Model\stage">
+      <UniqueIdentifier>{ac749c66-ba21-4992-8886-f80a30bdd94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D\Model\stage">
+      <UniqueIdentifier>{25ba9de7-0f88-47aa-af0f-5fc647bd97db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2D\Ui">
+      <UniqueIdentifier>{5d4de439-1ab5-4297-9879-518ff3f0cc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2D\Ui">
+      <UniqueIdentifier>{0aff9426-98ff-4cd3-af0f-8a8812b6bff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D\Model\Enemy">
+      <UniqueIdentifier>{d3e6d333-f4f3-4a98-b360-fe84091e6a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D\Model\Enemy">
+      <UniqueIdentifier>{efa52c43-21d8-426b-9d56-8b65277a4df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2D\result">
+      <UniqueIdentifier>{76e6cdef-b6bb-44ca-8280-d09bd31ed6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2D\result">
+      <UniqueIdentifier>{52c1a775-2e7e-4851-aaa0-237dd864aed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camara.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinput.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseinput.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\3D\Model\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\2D\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>ヘッダー ファイル\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>ヘッダー ファイル\3D\Model\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\3D\Model\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="round.h">
+      <Filter>ヘッダー ファイル\2D\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="guys.h">
+      <Filter>ヘッダー ファイル\3D\Model\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\環境</Filter>
+    </ClInclude>
+    <ClInclude Include="guninfo.h">
+      <Filter>ヘッダー ファイル\2D\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\2D\result</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>ヘッダー ファイル\2D\result</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル\環境</Filter>
+    </ClInclude>
+    <ClInclude Include="floo.h">
+      <Filter>ヘッダー ファイル\環境</Filter>
+    </ClInclude>
+    <ClInclude Include="worldsky.h">
+      <Filter>ヘッダー ファイル\環境</Filter>
+    </ClInclude>
+    <ClInclude Include="gunmodel.h">
+      <Filter>ヘッダー ファイル\3D\Model\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="operation.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\メイン</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinput.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseinput.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\3D\Model\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="picture.cpp">
+      <Filter>ソース ファイル\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>ソース ファイル\3D\Model\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\3D\Model\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="round.cpp">
+      <Filter>ソース ファイル\2D\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="guys.cpp">
+      <Filter>ソース ファイル\3D\Model\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\環境</Filter>
+    </ClCompile>
+    <ClCompile Include="guninfo.cpp">
+      <Filter>ソース ファイル\2D\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\2D\result</Filter>
+    </ClCompile>
+    <ClCompile Include="rank.cpp">
+      <Filter>ソース ファイル\2D\result</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\環境</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\2D\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="floo.cpp">
+      <Filter>ソース ファイル\環境</Filter>
+    </ClCompile>
+    <ClCompile Include="worldsky.cpp">
+      <Filter>ソース ファイル\環境</Filter>
+    </ClCompile>
+    <ClCompile Include="gunmodel.cpp">
+      <Filter>ソース ファイル\3D\Model\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="operation.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\メイン</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
