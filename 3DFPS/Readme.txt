@@ -9,7 +9,7 @@
 guys shootor
 
 // 制作期間
-2021年11月～2022年2月
+2020年11月～2021年2月
 
 // 開発環境
 Visual Studio 2015　,　C++/DirectX9
