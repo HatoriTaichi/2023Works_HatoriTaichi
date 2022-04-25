@@ -39,7 +39,6 @@ public:
 	void Uninit(void);		// 終了
 	void Update(void);	// 更新
 	void Draw(void);	// 描画
-	void UpdateListenter(void);	// リスナーのアップデート
 	CPlayer *GetPlayer(void) { return m_pPlayer; }	// ゲッダー
 	CEnemy *GetEnemy(void) { return m_pEnemy; }	// ゲッダー
 	CSingleModel *GetModel(int nCnt) {return m_pSingleModel[nCnt]; }	// ゲッダー

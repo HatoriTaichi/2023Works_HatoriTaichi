@@ -160,7 +160,6 @@ void CGame::Uninit(void)
 void CGame::Update(void)
 {
 	MouseProcess();
-	UpdateListenter();
 	WinOrLoss();
 }
 
@@ -170,30 +169,6 @@ void CGame::Update(void)
 void CGame::Draw(void)
 {
 
-}
-
-//=============================================================================
-// リスナーのアップデート
-//=============================================================================
-void CGame::UpdateListenter(void)
-{
-	CSound *pSound = CManager::GetSound();
-	CCamera *pCamera = CManager::GetCamera();
-	VECTOR pos, dir;	// 位置向き
-	D3DXVECTOR3 nor;	// 向き(正規化)
-
-	pos.x = pCamera->GetPosV().x;
-	pos.y = pCamera->GetPosV().y;
-	pos.z = pCamera->GetPosV().z;
-
-	nor = pCamera->GetPosR() - pCamera->GetPosV();
-	D3DXVec3Normalize(&nor, &nor);
-
-	dir.x = nor.x;
-	dir.y = nor.y;
-	dir.z = nor.z;
-
-	pSound->UpdateListener(pos, dir);
 }
 
 //=============================================================================

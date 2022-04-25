@@ -24,13 +24,8 @@ CSound::PARAM CSound::m_aParam[(int)X2SOUND_LABEL::LABEL_MAX] =
 	{ "data/Sound/Se/LoseVoice.wav", 0 },	// 負け
 	{ "data/Sound/Se/Reload.wav", 0 },		// リロード
 	{ "data/Sound/Se/Shoot.wav", 0 },		// 銃声
+	{ "data/Sound/Se/FootStep.wav", 0 },	// 足音
 };
-map<CSound::DXLIBSOUND_LABEL, string> CSound::m_DxlibSound =
-{
-	{ DXLIBSOUND_LABEL::SHOOT, "data/Sound/Se/Shoot.wav" },	// 銃声
-	{ DXLIBSOUND_LABEL::FOOT_STEP, "data/Sound/Se/FootStep.wav" },	// 足音
-};
-int CSound::m_nSoundHandle = 0;
 
 //=============================================================================
 // デフォルトコンストラクタ
@@ -164,94 +159,7 @@ HRESULT CSound::InitSound(HWND hWnd)
 		CloseHandle(hFile);
 	}
 
-	SetUserWindow(hWnd);
-
 	return S_OK;
-}
-
-//=============================================================================
-// リスナーの更新
-//=============================================================================
-void CSound::UpdateListener(VECTOR pos, VECTOR dir)
-{
-	// リスナーの位置を初期化
-	m_ListenerPos = pos;
-
-	// リスナーの向きを初期化
-	m_ListenerDir = dir;
-
-	// リスナーの位置と向きを設定
-	Set3DSoundListenerPosAndFrontPos_UpVecY(m_ListenerPos, VAdd(m_ListenerPos, m_ListenerDir));
-}
-
-//=============================================================================
-// dxlibの初期化
-//=============================================================================
-void CSound::InitDxlibSound(void)
-{
-	// １メートルに相当する値を設定する
-	Set3DSoundOneMetre(DX3D_SOUND_DISTANCE);
-
-	ChangeWindowMode(TRUE);
-
-	SetEnableXAudioFlag(TRUE);
-
-	SetNotWinFlag(TRUE);
-
-	// ＤＸライブラリの初期化
-	DxLib_Init();
-
-	// 描画先を裏画面にする
-	SetDrawScreen(DX_SCREEN_BACK);
-
-	// リスナーの位置を初期化
-	m_ListenerPos = VGet(0.0f, 0.0f, 0.0f);
-
-	// リスナーの向きを初期化
-	m_ListenerDir.x = 0.0f;
-	m_ListenerDir.y = 0.0f;
-	m_ListenerDir.z = 1.0f;
-
-	// リスナーの位置と向きを設定
-	Set3DSoundListenerPosAndFrontPos_UpVecY(m_ListenerPos, VAdd(m_ListenerPos, m_ListenerDir));
-}
-
-//=============================================================================
-// dxlibの終了
-//=============================================================================
-void CSound::UninitDxlibSound(void)
-{
-	// サウンドハンドルの削除
-	DeleteSoundMem(m_nSoundHandle);
-
-	// ＤＸライブラリの後始末
-	DxLib_End();
-}
-
-//=============================================================================
-// 鳴らす設定
-//=============================================================================
-void CSound::PlayDxlibSound(DXLIBSOUND_LABEL label, float fdistance, VECTOR pos)
-{
-	// 音を３Ｄサウンドとして読み込む
-	SetCreate3DSoundFlag(TRUE);
-	m_nSoundHandle = LoadSoundMem(m_DxlibSound[label].c_str());
-	SetCreate3DSoundFlag(FALSE);
-
-	// 音が聞こえる距離を設定する
-	Set3DRadiusSoundMem(fdistance, m_nSoundHandle);
-
-	// 音を鳴らす位置を設定する
-	Set3DPositionSoundMem(pos, m_nSoundHandle);
-
-	// リバーブエフェクトパラメータをプリセット「講堂」を使用して設定
-	Set3DPresetReverbParamSoundMem(DX_REVERB_PRESET_PLAIN, m_nSoundHandle);
-
-	PlaySoundMem(m_nSoundHandle, DX_PLAYTYPE_BACK);
-
-	//thread th(ThSound);
-
-	//th.detach();
 }
 
 //=============================================================================

@@ -103,7 +103,6 @@ HRESULT CManager::Init(HINSTANCE hInstance, HWND hWnd, bool bWindow)
 			m_pMouse->Init(hInstance, hWnd);
 			m_pGamepad->Init(hInstance, hWnd);
 			m_pSound->InitSound(hWnd);
-			m_pSound->InitDxlibSound();
 			m_pKeyboard->BindKey(CKeyboard::NUM_1, DIK_1);
 			m_pKeyboard->BindKey(CKeyboard::NUM_2, DIK_2);
 			m_pKeyboard->BindKey(CKeyboard::W, DIK_W);
@@ -175,7 +174,6 @@ void CManager::Uninit(void)
 	if (m_pSound != NULL)
 	{
 		m_pSound->UninitSound();
-		m_pSound->UninitDxlibSound();
 		delete m_pSound;
 		m_pSound = NULL;
 	}

@@ -330,14 +330,13 @@ void CEnemy::Attack(void)
 {
 	CSound *pSound = CManager::GetSound();
 	CCommunicationData::COMMUNICATION_DATA *pData = m_CommuData.GetCmmuData();
-	VECTOR pos = VGet(m_Pos.x, m_Pos.y, m_Pos.z);
 	D3DXMATRIX WorldPos = m_pModel[11]->GetMatrix();
 
 	for (int nCnt = 0; nCnt < MAX_BULLET; nCnt++)
 	{
 		if (pData->Player.bPushKey == true && pData->Bullet[nCnt].bUse == true)
 		{
-			pSound->PlayDxlibSound(CSound::DXLIBSOUND_LABEL::SHOOT, 500.0f, pos);
+			pSound->PlaySound(CSound::X2SOUND_LABEL::SHOOT);
 			CEnemyBullet::Create(D3DXVECTOR3(WorldPos._41, WorldPos._42, WorldPos._43), pData->Bullet[nCnt].Rot, D3DXVECTOR3(5.0f, 5.0f, 0.0f), D3DXVECTOR3(1.0f, 1.0f, 1.0f), "BULLET", 1.0f);
 			CGunFire::Create(D3DXVECTOR3(WorldPos._41, WorldPos._42, WorldPos._43), D3DXVECTOR3(10.0f, 10.0f, 0.0f), D3DXVECTOR3(1.0f, 1.0f, 1.0f), "MASLE_FLASH");
 			pData->Bullet[nCnt].bUse = false;
@@ -353,13 +352,12 @@ void CEnemy::Move(void)
 {
 	CSound *pSound = CManager::GetSound();
 	CCommunicationData::COMMUNICATION_DATA *pData = m_CommuData.GetCmmuData();
-	VECTOR pos = VGet(m_Pos.x, m_Pos.y, m_Pos.z);
 	int nMaxModel = CManager::GetGame()->GetMaxModel();
 	m_PosOld = m_Pos;
 
 	if (m_PosOld != m_Pos)
 	{
-		pSound->PlayDxlibSound(CSound::DXLIBSOUND_LABEL::FOOT_STEP, 500.0f, pos);
+		pSound->PlaySound(CSound::X2SOUND_LABEL::FOOT_STEP);
 	}
 
 	m_Pos = pData->Player.Pos;
